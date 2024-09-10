@@ -35,3 +35,73 @@ order-total-span {
   padding: 10px;
   margin-top: 10px;
 }
+
+/* .popup-container{
+  background-color: #000000;
+  padding: 12px;
+} */
+
+.poped-up-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.payment-heading {
+  font-family: roboto;
+  font-size: 24px;
+  color: #000000;
+}
+
+.select-dropdown {
+  width: 70%;
+  height: 30px;
+  border: 1px solid #000000;
+  margin-bottom: 20px;
+  /* align-self: center; */
+}
+
+.summary-heading {
+  font-family: roboto;
+  color: grey;
+  font-size: 30px;
+}
+
+.items {
+  font-family: roboto;
+  font-size: 22px;
+  color: #141414;
+}
+
+.items-span {
+  font-family: roboto;
+  font-weight: bold;
+}
+
+.confirm-order-btn {
+  background-color: #0b69ff;
+  padding: 8px;
+  border-radius: 10px;
+  align-self: center;
+  border: 0;
+  font-family: roboto;
+  color: #ffffff;
+}
+
+.confirm-order-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.back-btn {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: roboto;
+  border-radius: 6px;
+  border: 0;
+  padding: 10px;
+}
